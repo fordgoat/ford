@@ -12,19 +12,19 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7280404452:AAHcCyl1m9Dm9MmLuwzavm
 APP_ID = int(os.environ.get("APP_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001950756152"))
-OWNER_ID = int(os.environ.get("OWNER_ID", "1707380693"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6303393441"))
 PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "debesub")
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001955926976"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001710331413"))
+DB_NAME = os.environ.get("DATABASE_NAME", "ford")
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001710331413"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001955926976"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002087078793"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001634845793"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nsaya bisa menyimpan file dan membagikan dengan mudah.")
+START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nsaya bisa menyimpan file dan membagikan dengan mudah.\n\nVVIP BOKEP @VvipSchool")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1707380693").split()):
+    for x in (os.environ.get("ADMINS", "1707380693 6396921435 6291921516").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
