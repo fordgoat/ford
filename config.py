@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7280404452:AAHcCyl1m9Dm9MmLuwzavmxV67xSvKd9_2o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7373051119:AAHEyhOGCt-vVPMIvmEGnZjM2lbij7Ugtpc")
 APP_ID = int(os.environ.get("APP_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001950756152"))
@@ -19,7 +19,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "ford")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001710331413"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001955926976"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002087078793"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nsaya bisa menyimpan file dan membagikan dengan mudah.\n\nVVIP BOKEP @VvipSchool")
 try:
