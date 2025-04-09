@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8142655995:AAH8btYEGqetQ6AP7l4qFglNFdah8j2C0CM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29486311"))
@@ -20,10 +20,10 @@ APP_ID = int(os.environ.get("APP_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002266714167"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002073588527"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "gatauuihmalu")
+OWNER = os.environ.get("OWNER", "RGCIndo")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -36,7 +36,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://pddobrzd:0lku0NxlyzvJu6I5PkgjCOoXjbnLRVrK@drona.db.elephantsql.com/pddobrzd")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://avnadmin:AVNS_FH5tthg1MEDEJOKZS2g@pg-3452d22e-dirgahomage-e009.k.aivencloud.com:22423/defaultdb?sslmode=require")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002479413569"))
